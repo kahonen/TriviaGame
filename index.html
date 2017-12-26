@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Billy Joel Trivia Game </title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 id ="caption">Bily Joel Trivia</h1>
+    <p>
+      <a class="btn btn-primary btn-lg" type="button" value="start" id="start-button">Get Started</a>
+    </p>
+  </div>
+  <div id="show-number"></div>
+  <div id="questions">
+    <div>
+      <p> Question # 1</p>
+      <div>
+        <input type="radio" name="question1" class="yes">
+        <label for="AnswerA">Answer A</label>
+        <input type="radio" name="question1" class="no">
+        <label for="AnswerB">Answer B</label>
+        <input type="radio" name="question1" class="no">
+        <label for="AnswerC">Answer C</label>
+      </div>
+    </div>
+
+    <div>
+      <p> Question # 2</p>
+      <div>
+        <input type="radio" name="question2" class="no">
+        <label for="AnswerA">Answer A</label>
+        <input type="radio" name="question2" class="no">
+        <label for="AnswerB">Answer B</label>
+        <input type="radio" name="question2" class="yes">
+        <label for="AnswerC">Answer C</label>
+      </div>
+    </div>
+
+    <div>
+      <p> Question # 3</p>
+      <div>
+        <input type="radio" name="question3" class="no">
+        <label for="AnswerA">Answer A</label>
+        <input type="radio" name="question3" class="no">
+        <label for="AnswerB">Answer B</label>
+        <input type="radio" name="question3" class="yes">
+        <label for="AnswerC">Answer C</label>
+      </div>
+    </div>
+
+    <div>
+      <p> Question # 4</p>
+      <div>
+        <input type="radio" name="question4" class="no">
+        <label for="AnswerA">Answer A</label>
+        <input type="radio" name="question4" class="yes">
+        <label for="AnswerB">Answer B</label>
+        <input type="radio" name="question4" class="no">
+        <label for="AnswerC">Answer C</label>
+      </div>
+    </div>
+
+    <div>
+      <p> Question # 5</p>
+      <div>
+        <input type="radio" name="question5" class="no">
+        <label for="AnswerA">Answer A</label>
+        <input type="radio" name="question5" class="no">
+        <label for="AnswerB">Answer B</label>
+        <input type="radio" name="question5" class="yes">
+        <label for="AnswerC">Answer C</label>
+      </div>
+    </div>
+  </div>
+
+  <div id="answer-total">
+
+    <p>
+     Correct Answers:<span class="yes_results">0</span> 
+      <br>
+      Incorrect Answers: <span class="no_results">0</span> 
+    </p>
+
+  </div>
+
+  <a class="btn btn-primary btn-lg" type="button" value="submit" id="submit-button">Submit</a>
+
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
