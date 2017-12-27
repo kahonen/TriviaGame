@@ -1,4 +1,30 @@
 .jumbotron{
-    background: url("../images/piano.jpg") center; object-fit: fill;
+    background: url("../images/piano.jpg") center; max-width: 100%; opacity: 0.8;
     text-align: center; 
+}
+
+#caption{
+    color: rgb(46, 89, 196);
+}
+
+body{
+    text-align: center;
+    background-color: gray;
+}
+
+p{
+    font-size: 25px;
+    color: gray;
+    font-style: bold;
+}
+
+#show-number{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100px;
+    color: gray;
+}
+
+label{
+    font-size: 15px;
+    color: gray;
 }
